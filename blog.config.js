@@ -28,6 +28,7 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '立志做最好最健康的国产食品与可乐', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'zhimanshipin.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '枝蔓食品，五星可乐', // 网站关键词 英文逗号隔开
+  SINCE: process.env.NEXT_SINCE || 2024, // 建站年份
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址 例如mail@tangly1024.com
