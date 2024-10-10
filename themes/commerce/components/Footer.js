@@ -77,7 +77,7 @@ const Footer = props => {
             <div className='md:border-l pl-8 space-x-8 border-gray-600 flex flex-grow'>
               {/* 电话邮箱等 */}
               <div className='my-6 whitespace-pre-line text-left'>
-                <div className='font-bold text-l text-white mb-6'>
+                <div className='font-bold mb-4 text-white'>
                   {siteConfig(
                     'COMMERCE_TEXT_FOOTER_TITLE',
                     'Contact US',
