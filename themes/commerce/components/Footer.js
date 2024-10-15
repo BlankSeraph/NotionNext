@@ -85,7 +85,7 @@ const Footer = props => {
                   )}
                 </div>
                 <div className='space-y-4'>
-                  <div className='flex space-x-4 text-2xl'>
+                  <div className='flex space-x-4 text-start'>
                     {JSON.parse(
                       siteConfig(
                         'COMMERCE_CONTACT_WHATSAPP_SHOW',
