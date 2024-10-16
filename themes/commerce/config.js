@@ -2,25 +2,25 @@ const CONFIG = {
   // 封面大图
   COMMERCE_HOME_BANNER_ENABLE: true,
 
-  COMMERCE_TEXT_CENTER_TITLE: '产品中心', // 中间产品区块标题
+  COMMERCE_TEXT_CENTER_TITLE: '枝蔓食品', // 中间产品区块标题
   COMMERCE_TEXT_CENTER_DESCRIPTION:
-    '枝蔓食品-立志做最健康的国产食品可乐企业', // 中间产品区块文字描述
-  COMMERCE_TEXT_CENTER_CATEGORY_TITLE: '产品分类', // 左侧产品分类标题
+    '立志做最好最健康的国产食品可乐企业', // 中间产品区块文字描述
+  COMMERCE_TEXT_CENTER_CATEGORY_TITLE: '信息', // 左侧分类标题
   COMMERCE_TEXT_FOOTER_TITLE: '联系我们', // COMMERCE主题页脚文案标题；按Shift+Enter键可以换行
   COMMERCE_TEXT_FOOTER_MENU_1: '关于我们', // COMMERCE主题页脚左侧菜单标题1
   COMMERCE_TEXT_FOOTER_MENU_2: '帮助', // COMMERCE主题页脚左侧菜单标题2
 
-  COMMERCE_FOOTER_RIGHT_IMG_URL: 'https://www.shuida123.com/qrcode.png', // 显示页脚右侧的图片，通常放二维码
-  COMMERCE_FOOTER_RIGHT_TEXT: '扫码关注官方公众号', // 页脚右侧图片下的文字描述
+  COMMERCE_FOOTER_RIGHT_IMG_URL: 'https://www.helloimg.com/i/2024/10/15/670e08209d27d.png', // 显示页脚右侧的图片，通常放二维码
+  COMMERCE_FOOTER_RIGHT_TEXT: '扫码进入官方小程序', // 页脚右侧图片下的文字描述
 
-  COMMERCE_HOME_POSTS_COUNT: 9, // 首页展示商品数
+  COMMERCE_HOME_POSTS_COUNT: 6, // 首页展示商品数
   COMMERCE_CONTACT_WEHCHAT_PUBLIC: true,
   COMMERCE_CONTACT_XIAOHONGSHU_SHOW: true,
   COMMERCE_CONTACT_BILIBILI_SHOW: true,
-  COMMERCE_CONTACT_WHATSAPP_SHOW: false, // 是否展示whatsapp联系按钮 请配置 CONTACT_WHATSAPP
+  COMMERCE_CONTACT_WHATSAPP_SHOW: true, // 是否展示whatsapp联系按钮 请配置 CONTACT_WHATSAPP
   COMMERCE_CONTACT_TWITTER_SHOW: false,
   COMMERCE_CONTACT_INSTAGRAM_SHOW: false,
-  COMMERCE_CONTACT_LINKEDIN_SHOW: false,
+  COMMERCE_CONTACT_LINKEDIN_SHOW: true,
   COMMERCE_CONTACT_TELEGRAM_SHOW: true, // 联系栏展示telegram按钮 请配置 CONTACT_TELEGRAM
   COMMERCE_CONTACT_EMAIL_SHOW: true
 }

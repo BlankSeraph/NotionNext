@@ -159,6 +159,23 @@ const Footer = props => {
                         }
                       </div>
                     )}
+
+                    {JSON.parse(
+                      siteConfig('COMMERCE_CONTACT_WEIBO_SHOW', true, CONFIG)
+                    ) && (
+                      <div>
+                        {
+                          <a
+                            target='_blank'
+                            rel='noreferrer'
+                            href={siteConfig('CONTACT_WEIBO', '#', CONFIG)}
+                            title={'weibo'}>
+                            <i className='transform hover:scale-125 duration-150 fab fa-telegram dark:hover:text-red-400 hover:text-red-600' />
+                          </a>
+                        }
+                      </div>
+                    )}
+
                   </div>
                   <div className='text-lg'>
                     {' '}
