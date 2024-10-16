@@ -192,11 +192,15 @@ const Footer = props => {
                   </div>
                   <div className='text-lg'>
                     {' '}
-                    {siteConfig('CONTACT_PHONE', null) && (
-                      <div>
+                    {siteConfig('CONTACT_PHONE') && (
+                      <a
+                        target='_blank'
+                        rel='noreferrer'
+                        title={'phone'}
+                        href={`mailto:${siteConfig('CONTACT_PHONE')}`}>
                         <i className='transform hover:scale-125 duration-150 fas fa-user dark:hover:text-red-400 hover:text-red-600' />{' '}
-                        {siteConfig('CONTACT_PHONE', null)}
-                      </div>
+                        {siteConfig('CONTACT_PHONE')}
+                        </a>
                     )}
                   </div>
                 </div>
