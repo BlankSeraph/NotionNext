@@ -85,7 +85,7 @@ const Footer = props => {
                   )}
                 </div>
                 <div className='space-y-4'>
-                  <div className='flex space-x-4 text-start'>
+                  <div className='flex space-x-4 text-2xl'>
                     {JSON.parse(
                       siteConfig(
                         'COMMERCE_CONTACT_WHATSAPP_SHOW',
@@ -100,8 +100,45 @@ const Footer = props => {
                             target='_blank'
                             rel='noreferrer'
                             href={siteConfig('CONTACT_WHATSAPP', '#', CONFIG)}
-                            title={'telegram'}>
+                            title={'whatsapp'}>
                             <i className='transform hover:scale-125 duration-150 fa-brands fa-whatsapp dark:hover:text-red-400 hover:text-red-600' />
+                          </a>
+                        }
+                      </div>
+                    )}
+
+                    {JSON.parse(
+                      siteConfig(
+                        'COMMERCE_CONTACT_BILIBILI_SHOW',
+                        null,
+                        CONFIG
+                      ),
+                      true
+                    ) && (
+                      <div>
+                        {
+                          <a
+                            target='_blank'
+                            rel='noreferrer'
+                            href={siteConfig('CONTACT_BILIBILI', '#', CONFIG)}
+                            title={'bilibili'}>
+                            <i className='transform hover:scale-125 duration-150 fa-brands fa-bilibili dark:hover:text-red-400 hover:text-red-600' />
+                          </a>
+                        }
+                      </div>
+                    )}
+                    
+                    {JSON.parse(
+                      siteConfig('COMMERCE_CONTACT_XIAOHONGSHU_SHOW', true, CONFIG)
+                    ) && (
+                      <div>
+                        {
+                          <a
+                            target='_blank'
+                            rel='noreferrer'
+                            href={siteConfig('CONTACT_XIAOHONGSHU', '#', CONFIG)}
+                            title={'xiaohongshu'}>
+                            <i className='transform hover:scale-125 duration-150 fab fa-xiaohongshu dark:hover:text-red-400 hover:text-red-600' />
                           </a>
                         }
                       </div>
@@ -199,7 +236,7 @@ const Footer = props => {
             <div className='text-xs text-light-500 dark:text-gray-700'>
               Powered by{' '}
               <a
-                href='https://github.com/tangly1024/NotionNext'
+                href='https://github.com/BlankSeraph/NotionNext'
                 className='dark:text-gray-300'>
                 NotionNext {siteConfig('VERSION')}
               </a>
