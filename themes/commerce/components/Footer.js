@@ -255,11 +255,11 @@ const Footer = props => {
 
             {/* 技术支持 */}
             <div className='text-xs text-light-500 dark:text-gray-700'>
-              Powered by{' '}
+              Powered by{'Next.js 15.0'}
               <a
-                href='https://github.com/BlankSeraph/NotionNext'
+                href='https://github.com/vercel/next.js'
                 className='dark:text-gray-300'>
-                NotionNext {siteConfig('VERSION')}
+                Next.js {siteConfig('VERSION')}
               </a>
               .
             </div>
