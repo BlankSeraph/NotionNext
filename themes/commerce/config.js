@@ -11,7 +11,7 @@ const CONFIG = {
   COMMERCE_TEXT_FOOTER_MENU_2: '帮助', // COMMERCE主题页脚左侧菜单标题2
   // COMMERCE_TEXT_FOOTER_MENU_3: '法律支持', // COMMERCE主题页脚左侧菜单标题3
 
-  COMMERCE_FOOTER_RIGHT_IMG_URL: 'https://www.helloimg.com/i/2024/10/15/670e08209d27d.png', // 显示页脚右侧的图片，通常放二维码
+  COMMERCE_FOOTER_RIGHT_IMG_URL: 'https://www.helloimg.com/i/2024/10/18/6711c49487723.png', // 显示页脚右侧的图片，通常放二维码
   COMMERCE_FOOTER_RIGHT_TEXT: '扫码进入官方小程序', // 页脚右侧图片下的文字描述
 
   COMMERCE_HOME_POSTS_COUNT: 6, // 首页展示商品数
